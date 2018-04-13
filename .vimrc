@@ -43,6 +43,13 @@ nno <C-y> <C-y>k
 " Another way to escape
 ino jk <ESC>l
 
+" Add surrounding parenthesis, and stuff
+vno () c()<ESC>P
+vno {} c{}<ESC>P
+vno "" c""<ESC>P
+vno [] c[]<ESC>P
+vno <> c<><ESC>P
+
 " Command auto completion
 set wildmode=list:longest,full
 set wildignore+=*.retry
