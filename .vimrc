@@ -32,6 +32,9 @@ set noexpandtab
 set tabstop=4
 set cino=:0,+0,(0,J0,>4,)1,m2
 
+
+" ---------------------------- REMAPPING ----------------------------
+ 
 " Auto close braces
 ino {<CR> {<CR>}<ESC>O
 ino {;<CR> {<CR>};<ESC>O
@@ -50,6 +53,17 @@ vno "" c""<ESC>P
 vno [] c[]<ESC>P
 vno <> c<><ESC>P
 
+" ----- Several remaps for simplier use of azerty keyboard
+
+" Remap ` for location jump into è
+nno è `
+
+nno é ~
+nno à @
+nno ç ^
+
+" -------------------------------------------------------------------
+ 
 " Command auto completion
 set wildmode=list:longest,full
 set wildignore+=*.retry
