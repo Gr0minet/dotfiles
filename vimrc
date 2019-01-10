@@ -28,7 +28,7 @@ set scrolloff=5
 set autoindent
 set cindent
 set shiftwidth=4
-set noexpandtab
+set expandtab
 set tabstop=4
 set cino=:0,+0,(0,J0,>4,)1,m2
 
@@ -69,7 +69,7 @@ set wildmode=list:longest,full
 set wildignore+=*.retry
 set wildmenu
 
-set showcmd			" Show (partial) command in status line.
+set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
 
 " Search
