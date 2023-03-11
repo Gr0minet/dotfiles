@@ -31,6 +31,7 @@ set shiftwidth=4
 set expandtab
 set tabstop=4
 set cino=:0,+0,(0,J0,>4,)1,m2
+set tabpagemax=100
 
 
 " ---------------------------- REMAPPING ----------------------------
@@ -77,4 +78,3 @@ set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 
 set mouse=a		" Enable mouse usage (all modes)
-
